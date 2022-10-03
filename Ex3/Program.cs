@@ -11,7 +11,7 @@ double Fibbonachi (int n)
     if(n==1||n==2) return 1;
     else return Fibbonachi(n-1)+Fibbonachi(n-2);
 }
-for (int i=1; i<10;i++)
+for (int i=1; i<n;i++)
 {
-    Console.WriteLine(Fibbonachi(i));
+    Console.WriteLine($"f({i})={Fibbonachi(i)}");
 }
